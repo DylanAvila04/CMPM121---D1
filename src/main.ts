@@ -4,4 +4,3 @@ import "./style.css";
 document.body.innerHTML = `
   <button>boo</button>
 `;
-
