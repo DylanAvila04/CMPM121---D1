@@ -1,5 +1,18 @@
 .icon {
-  width: 64px;
-  vertical-align: top;
+  width: 240px;
+  vertical-align: middle;
   border: 1px solid salmon;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 12px 24px;
+  width: 80%;
+  max-width: 300px;
+  background-color: rgb(139, 96, 14);
+  color: white;
+  border: none;
+  border-radius: 8px;
 }
