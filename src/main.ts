@@ -4,12 +4,17 @@ import "./style.css";
 
 // Create a new button
 document.body.innerHTML = `
-  <button> 🥐 Click for a Crossiant</button>
+  <button> 🥐 </button>
+  <div id = "Counter"> You have 0 crossiants!🥐</div>
 `;
 const button = document.querySelector("button");
+const counterElement = document.getElementById("Counter");
+let counter = 0; // 0 crossiants to start
 
 // Add an event listener to the button
 button?.addEventListener("click", () => {
-  alert("You have gained a crossiant!");
+  counter++; // increase counter by 1
+  if (counterElement) {
+    counterElement.textContent = `You have ${counter} crossiants!🥐`; // update the counter display
+  }
 });
-//Step 1 complete

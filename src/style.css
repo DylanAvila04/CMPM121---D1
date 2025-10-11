@@ -7,12 +7,22 @@
 button {
   display: block;
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 60px;
   padding: 12px 24px;
   width: 80%;
-  max-width: 300px;
+  max-width: 100px;
   background-color: rgb(139, 96, 14);
   color: white;
   border: none;
   border-radius: 8px;
+}
+button:active {
+  background-color: black;
+  color: white;
+}
+
+div {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
 }
