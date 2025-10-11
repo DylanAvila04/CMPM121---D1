@@ -11,4 +11,4 @@ const button = document.querySelector("button");
 // Add an event listener to the button
 button?.addEventListener("click", () => {
   alert("You have gained a crossiant!");
-}); 
+});
