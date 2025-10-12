@@ -11,7 +11,7 @@ document.body.innerHTML = `
 
 const button = document.querySelector("button");
 const counterElement = document.getElementById("Counter");
-const cookElement = document.getElementById("cook");
+// const cookElement = document.getElementById("cook");
 
 let counter = 0; // 0 crossiants to start
 const cookscrossiants = 1; // 0 crossiants from cook
